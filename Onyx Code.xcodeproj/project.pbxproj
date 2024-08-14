@@ -14,6 +14,8 @@
 		7FC6D1FE2C5C1F750009B503 /* Onyx_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D1FD2C5C1F750009B503 /* Onyx_CodeTests.swift */; };
 		7FC6D2082C5C1F750009B503 /* Onyx_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D2072C5C1F750009B503 /* Onyx_CodeUITests.swift */; };
 		7FC6D20A2C5C1F750009B503 /* Onyx_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D2092C5C1F750009B503 /* Onyx_CodeUITestsLaunchTests.swift */; };
+		7FED98A22C6D1375004B1D90 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED98A12C6D1375004B1D90 /* Question.swift */; };
+		7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7FC6D2032C5C1F750009B503 /* Onyx CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Onyx CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC6D2072C5C1F750009B503 /* Onyx_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onyx_CodeUITests.swift; sourceTree = "<group>"; };
 		7FC6D2092C5C1F750009B503 /* Onyx_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onyx_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FED98A12C6D1375004B1D90 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				7FC6D1EE2C5C1F730009B503 /* ContentView.swift */,
 				7FC6D1F02C5C1F750009B503 /* Assets.xcassets */,
 				7FC6D1F22C5C1F750009B503 /* Preview Content */,
+				7FED98A12C6D1375004B1D90 /* Question.swift */,
+				7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */,
 			);
 			path = "Onyx Code";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FED98A22C6D1375004B1D90 /* Question.swift in Sources */,
 				7FC6D1EF2C5C1F730009B503 /* ContentView.swift in Sources */,
+				7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */,
 				7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
