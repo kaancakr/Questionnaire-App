@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F9A81FA2C70DFDF00C3E326 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A81F92C70DFDF00C3E326 /* Game.swift */; };
+		7F9A81FC2C70E01300C3E326 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A81FB2C70E01300C3E326 /* SummaryView.swift */; };
 		7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D1EC2C5C1F730009B503 /* Onyx_CodeApp.swift */; };
 		7FC6D1EF2C5C1F730009B503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D1EE2C5C1F730009B503 /* ContentView.swift */; };
 		7FC6D1F12C5C1F750009B503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC6D1F02C5C1F750009B503 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F9A81F92C70DFDF00C3E326 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7F9A81FB2C70E01300C3E326 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		7FC6D1E92C5C1F730009B503 /* Onyx Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onyx Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC6D1EC2C5C1F730009B503 /* Onyx_CodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onyx_CodeApp.swift; sourceTree = "<group>"; };
 		7FC6D1EE2C5C1F730009B503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				7FC6D1F22C5C1F750009B503 /* Preview Content */,
 				7FED98A12C6D1375004B1D90 /* Question.swift */,
 				7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */,
+				7F9A81F92C70DFDF00C3E326 /* Game.swift */,
+				7F9A81FB2C70E01300C3E326 /* SummaryView.swift */,
 			);
 			path = "Onyx Code";
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FED98A22C6D1375004B1D90 /* Question.swift in Sources */,
+				7F9A81FA2C70DFDF00C3E326 /* Game.swift in Sources */,
 				7FC6D1EF2C5C1F730009B503 /* ContentView.swift in Sources */,
 				7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */,
 				7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */,
+				7F9A81FC2C70E01300C3E326 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
