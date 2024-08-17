@@ -79,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F9A81FD2C70E09700C3E326 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				7F9A81F92C70DFDF00C3E326 /* Game.swift */,
+				7FED98A12C6D1375004B1D90 /* Question.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		7F9A81FF2C70E0C000C3E326 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FC6D1EE2C5C1F730009B503 /* ContentView.swift */,
+				7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */,
+				7F9A81FB2C70E01300C3E326 /* SummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7FC6D1E02C5C1F730009B503 = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +121,11 @@
 		7FC6D1EB2C5C1F730009B503 /* Onyx Code */ = {
 			isa = PBXGroup;
 			children = (
+				7F9A81FF2C70E0C000C3E326 /* Views */,
+				7F9A81FD2C70E09700C3E326 /* Modals */,
 				7FC6D1EC2C5C1F730009B503 /* Onyx_CodeApp.swift */,
-				7FC6D1EE2C5C1F730009B503 /* ContentView.swift */,
 				7FC6D1F02C5C1F750009B503 /* Assets.xcassets */,
 				7FC6D1F22C5C1F750009B503 /* Preview Content */,
-				7FED98A12C6D1375004B1D90 /* Question.swift */,
-				7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */,
-				7F9A81F92C70DFDF00C3E326 /* Game.swift */,
-				7F9A81FB2C70E01300C3E326 /* SummaryView.swift */,
 			);
 			path = "Onyx Code";
 			sourceTree = "<group>";
