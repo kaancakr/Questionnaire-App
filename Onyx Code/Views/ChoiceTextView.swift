@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ChoiceTextView: View {
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    let mainColor = Color(red: 24/255, green: 54/255, blue: 97/255)
+    let accentColor = Color(red: 28/255, green: 75/255, blue: 130/255)
+    let secondaryColor = Color(red: 221/255, green: 107/255, blue: 77/255)
+    let choosingColor = Color(red: 218/255, green: 225/255, blue: 231/255)
     
     let choiceText: String
     
@@ -18,13 +20,8 @@ struct ChoiceTextView: View {
             .bold()
             .font(.body)
             .multilineTextAlignment(.leading)
-            .padding(.leading, 30)
-            .frame(maxWidth: 340, minHeight: 50, alignment: .leading)
-            .background(accentColor)
-            .cornerRadius(16)
+            .padding(.leading, 10)
+            .frame(maxWidth: 315, minHeight: 40, alignment: .leading)
+            .foregroundColor(Color.black)
     }
-}
-
-#Preview {
-    ChoiceTextView(choiceText: "Choice")
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F6A624A2C7496A800CE8CE0 /* QuestionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A62492C7496A800CE8CE0 /* QuestionButtonStyle.swift */; };
 		7F9A81FC2C70E01300C3E326 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A81FB2C70E01300C3E326 /* SummaryView.swift */; };
 		7F9A82012C70E22D00C3E326 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A82002C70E22D00C3E326 /* Game.swift */; };
 		7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D1EC2C5C1F730009B503 /* Onyx_CodeApp.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F6A62492C7496A800CE8CE0 /* QuestionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButtonStyle.swift; sourceTree = "<group>"; };
 		7F9A81FB2C70E01300C3E326 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		7F9A82002C70E22D00C3E326 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7FC6D1E92C5C1F730009B503 /* Onyx Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onyx Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				7FC6D1EE2C5C1F730009B503 /* ContentView.swift */,
 				7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */,
 				7F9A81FB2C70E01300C3E326 /* SummaryView.swift */,
+				7F6A62492C7496A800CE8CE0 /* QuestionButtonStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				7FED98A22C6D1375004B1D90 /* Question.swift in Sources */,
 				7F9A82012C70E22D00C3E326 /* Game.swift in Sources */,
+				7F6A624A2C7496A800CE8CE0 /* QuestionButtonStyle.swift in Sources */,
 				7FC6D1EF2C5C1F730009B503 /* ContentView.swift in Sources */,
 				7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */,
 				7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */,

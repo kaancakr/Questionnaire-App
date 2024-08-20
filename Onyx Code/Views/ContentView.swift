@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    let mainColor = Color(red: 24/255, green: 54/255, blue: 97/255)
+    let accentColor = Color(red: 28/255, green: 75/255, blue: 130/255)
+    let secondaryColor = Color(red: 221/255, green: 107/255, blue: 77/255)
+    let choosingColor = Color(red: 218/255, green: 225/255, blue: 231/255)
     @State var showCheckImage = false
     @State var showWrongImage = false
     @State var game = Game(currentQuestionIndex: 0)
@@ -26,7 +28,7 @@ struct ContentView: View {
             } else {
                 VStack {
                     HStack {
-                        Spacer(minLength: 110)
+                        Spacer(minLength: 105)
                         Text("Question \(game.currentQuestionIndex + 1) of \(game.numberOfQuestions)")
                             .font(.callout)
                             .multilineTextAlignment(.center)
@@ -77,7 +79,8 @@ struct ContentView: View {
                                 }, label: {
                                     ChoiceTextView(choiceText: game.currentQuestion.possibleAnswers[index])
                                 })
-                                .padding(.bottom, 5)
+                                .buttonStyle(QuestionButtonStyle())
+                                .padding(.bottom, 10)
                             }
                         }
                     }

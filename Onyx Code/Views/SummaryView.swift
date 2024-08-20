@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct SummaryView: View {
-    let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
+    let mainColor = Color(red: 22/255, green: 48/255, blue: 32/255)
+    let accentColor = Color(red: 48/255, green: 77/255, blue: 48/255)
+    let secondaryColor = Color(red: 182/255, green: 196/255, blue: 182/255)
+    let choosingColor = Color(red: 238/255, green: 240/255, blue: 229/255)
     let correctGuesses: Int
     let incorrectGuesses: Int
     let onPlayAgain: () -> Void
