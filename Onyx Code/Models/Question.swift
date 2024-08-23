@@ -29,69 +29,69 @@ struct Question: Hashable {
                     "C"
                  ],
                  correctAnswerIndex: 0),
-        Question(questionText: "Which programming language is known as the 'mother of all languages'?",
+        Question(questionText: "Computers use the digits zero and one to store data.  What is this system called?",
                  possibleAnswers: [
-                    "C",
-                    "FORTRAN",
-                    "Assembly",
-                    "Lisp"
-                 ],
-                 correctAnswerIndex: 1),
-        Question(questionText: "Which of the following is not a high-level programming language?",
-                 possibleAnswers: [
-                    "C++",
-                    "Python",
-                    "JavaScript",
-                    "Assembly"
-                 ],
-                 correctAnswerIndex: 3),
-        Question(questionText: "Who is the creator of the Linux operating system?",
-                 possibleAnswers: [
-                    "Bill Gates",
-                    "Mark Zuckerberg",
-                    "Linus Torvalds",
-                    "Steve Jobs"
-                 ],
-                 correctAnswerIndex: 2),
-        Question(questionText: "What year was the Python programming language first released?",
-                 possibleAnswers: [
-                    "1989",
-                    "1991",
-                    "1995",
-                    "2000"
-                 ],
-                 correctAnswerIndex: 1),
-        Question(questionText: "What does 'HTML' stand for?",
-                 possibleAnswers: [
-                    "HyperText Markup Language",
-                    "Hyperlink and Text Markup Language",
-                    "Home Tool Markup Language",
-                    "Hyperlink Text Management Language"
+                    "Binary",
+                    "Ternary",
+                    "Decimal",
+                    "Fraction"
                  ],
                  correctAnswerIndex: 0),
-        Question(questionText: "Which of the following is a front-end web development framework?",
+        Question(questionText: "In what year was Swift 1.0 released?",
                  possibleAnswers: [
-                    "Django",
-                    "Laravel",
-                    "React",
-                    "Flask"
+                    "2010",
+                    "2013",
+                    "2014",
+                    "2020"
                  ],
                  correctAnswerIndex: 2),
-        Question(questionText: "Which company developed the Java programming language?",
+        Question(questionText: "What was iOS originally called?",
                  possibleAnswers: [
-                    "Microsoft",
-                    "Apple",
-                    "Sun Microsystems",
-                    "Google"
+                    "Swift OS",
+                    "Apple OS",
+                    "iPhone OS",
+                    "iPod OS"
                  ],
                  correctAnswerIndex: 2),
-        Question(questionText: "Which version control system is widely used for managing source code?",
+        Question(questionText: "Who was the first programmer?",
                  possibleAnswers: [
-                    "SVN",
-                    "Git",
-                    "Mercurial",
-                    "CVS"
+                    "Alan Turing",
+                    "Ada Lovelace",
+                    "Guido van Rossum",
+                    "Dennis Ritchie"
                  ],
-                 correctAnswerIndex: 1)
+                 correctAnswerIndex: 1),
+        Question(questionText: "What was the first computer bug?",
+                 possibleAnswers: [
+                    "Ant",
+                    "Beetle",
+                    "Moth",
+                    "Fly"
+                 ],
+                 correctAnswerIndex: 2),
+        Question(questionText: "In what year was the SwiftUI framework introduced?",
+                 possibleAnswers: [
+                    "2015",
+                    "2016",
+                    "2018",
+                    "2019"
+                 ],
+                 correctAnswerIndex: 3),
+        Question(questionText: "What language did iOS developers use before Swift?",
+                 possibleAnswers: [
+                    "Objective-C",
+                    "Python",
+                    "Typescript",
+                    "Java"
+                 ],
+                 correctAnswerIndex: 0),
+        Question(questionText: "What version of iOS introduced dark mode?",
+                 possibleAnswers: [
+                    "iOS 10",
+                    "iOS 11",
+                    "iOS 12",
+                    "iOS 13"
+                 ],
+                 correctAnswerIndex: 3),
     ]
 }

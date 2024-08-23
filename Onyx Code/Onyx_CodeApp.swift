@@ -11,7 +11,7 @@ import SwiftUI
 struct Onyx_CodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }
