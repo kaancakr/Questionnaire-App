@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		7F0C280F2C78FFDD00D0873B /* OnyxColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C280D2C78FFDD00D0873B /* OnyxColor.swift */; };
 		7F0C28102C78FFDD00D0873B /* QuestionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C280E2C78FFDD00D0873B /* QuestionButtonView.swift */; };
+		7F2F0AA72C79FB6E00FF724B /* ProfileTrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AA62C79FB6E00FF724B /* ProfileTrailerView.swift */; };
+		7F2F0AA92C7A07D200FF724B /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AA82C7A07D200FF724B /* Course.swift */; };
+		7F2F0AAD2C7A097000FF724B /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AAC2C7A097000FF724B /* CourseView.swift */; };
+		7F2F0AAF2C7A0BD000FF724B /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AAE2C7A0BD000FF724B /* CourseListView.swift */; };
+		7F2F0AB12C7A1EE500FF724B /* LastActivityButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AB02C7A1EE500FF724B /* LastActivityButtonView.swift */; };
+		7F2F0AB32C7A233600FF724B /* LastActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F0AB22C7A233600FF724B /* LastActivityView.swift */; };
 		7F80A6E92C78CCD000DDD37C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F80A6E82C78CCD000DDD37C /* WelcomeView.swift */; };
 		7F9A82012C70E22D00C3E326 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A82002C70E22D00C3E326 /* Game.swift */; };
 		7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6D1EC2C5C1F730009B503 /* Onyx_CodeApp.swift */; };
@@ -23,6 +29,8 @@
 		7FD983E22C78FA6F002705C6 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD983E12C78FA6F002705C6 /* ScoreView.swift */; };
 		7FED98A22C6D1375004B1D90 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED98A12C6D1375004B1D90 /* Question.swift */; };
 		7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */; };
+		7FF8EA382C79F0B5005DE75A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8EA372C79F0B5005DE75A /* HomeView.swift */; };
+		7FF8EA3A2C79F3EB005DE75A /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8EA392C79F3EB005DE75A /* ProfileButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,12 @@
 /* Begin PBXFileReference section */
 		7F0C280D2C78FFDD00D0873B /* OnyxColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnyxColor.swift; sourceTree = "<group>"; };
 		7F0C280E2C78FFDD00D0873B /* QuestionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButtonView.swift; sourceTree = "<group>"; };
+		7F2F0AA62C79FB6E00FF724B /* ProfileTrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrailerView.swift; sourceTree = "<group>"; };
+		7F2F0AA82C7A07D200FF724B /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		7F2F0AAC2C7A097000FF724B /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		7F2F0AAE2C7A0BD000FF724B /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
+		7F2F0AB02C7A1EE500FF724B /* LastActivityButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastActivityButtonView.swift; sourceTree = "<group>"; };
+		7F2F0AB22C7A233600FF724B /* LastActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastActivityView.swift; sourceTree = "<group>"; };
 		7F80A6E82C78CCD000DDD37C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7F9A82002C70E22D00C3E326 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7FC6D1E92C5C1F730009B503 /* Onyx Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onyx Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +76,8 @@
 		7FD983E12C78FA6F002705C6 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		7FED98A12C6D1375004B1D90 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7FED98A32C6D14E9004B1D90 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		7FF8EA372C79F0B5005DE75A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7FF8EA392C79F3EB005DE75A /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -98,6 +114,7 @@
 			children = (
 				7FED98A12C6D1375004B1D90 /* Question.swift */,
 				7F9A82002C70E22D00C3E326 /* Game.swift */,
+				7F2F0AA82C7A07D200FF724B /* Course.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +130,13 @@
 				7FD983E12C78FA6F002705C6 /* ScoreView.swift */,
 				7F0C280D2C78FFDD00D0873B /* OnyxColor.swift */,
 				7F0C280E2C78FFDD00D0873B /* QuestionButtonView.swift */,
+				7FF8EA372C79F0B5005DE75A /* HomeView.swift */,
+				7FF8EA392C79F3EB005DE75A /* ProfileButtonView.swift */,
+				7F2F0AA62C79FB6E00FF724B /* ProfileTrailerView.swift */,
+				7F2F0AAC2C7A097000FF724B /* CourseView.swift */,
+				7F2F0AAE2C7A0BD000FF724B /* CourseListView.swift */,
+				7F2F0AB02C7A1EE500FF724B /* LastActivityButtonView.swift */,
+				7F2F0AB22C7A233600FF724B /* LastActivityView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,12 +333,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD983DF2C78EEE4002705C6 /* BottomTextView.swift in Sources */,
+				7FF8EA382C79F0B5005DE75A /* HomeView.swift in Sources */,
+				7F2F0AA72C79FB6E00FF724B /* ProfileTrailerView.swift in Sources */,
+				7F2F0AB32C7A233600FF724B /* LastActivityView.swift in Sources */,
 				7FED98A22C6D1375004B1D90 /* Question.swift in Sources */,
+				7F2F0AA92C7A07D200FF724B /* Course.swift in Sources */,
+				7F2F0AB12C7A1EE500FF724B /* LastActivityButtonView.swift in Sources */,
 				7F9A82012C70E22D00C3E326 /* Game.swift in Sources */,
+				7FF8EA3A2C79F3EB005DE75A /* ProfileButtonView.swift in Sources */,
 				7F80A6E92C78CCD000DDD37C /* WelcomeView.swift in Sources */,
+				7F2F0AAF2C7A0BD000FF724B /* CourseListView.swift in Sources */,
 				7FC6D1EF2C5C1F730009B503 /* GameView.swift in Sources */,
 				7FED98A42C6D14E9004B1D90 /* ChoiceTextView.swift in Sources */,
 				7F0C280F2C78FFDD00D0873B /* OnyxColor.swift in Sources */,
+				7F2F0AAD2C7A097000FF724B /* CourseView.swift in Sources */,
 				7F0C28102C78FFDD00D0873B /* QuestionButtonView.swift in Sources */,
 				7FC6D1ED2C5C1F730009B503 /* Onyx_CodeApp.swift in Sources */,
 				7FD983DD2C78EB12002705C6 /* QuestionView.swift in Sources */,

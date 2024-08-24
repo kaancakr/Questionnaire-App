@@ -73,7 +73,7 @@ struct WelcomeView: View {
                 .foregroundColor(.white)
             }
             .navigationDestination(isPresented: $isActive) {
-                GameView()
+                HomeView()
             }
         }
     }
