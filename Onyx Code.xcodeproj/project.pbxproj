@@ -59,6 +59,7 @@
 		7F2F0AAE2C7A0BD000FF724B /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		7F2F0AB02C7A1EE500FF724B /* LastActivityButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastActivityButtonView.swift; sourceTree = "<group>"; };
 		7F2F0AB22C7A233600FF724B /* LastActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastActivityView.swift; sourceTree = "<group>"; };
+		7F6084922C7A500F00B89749 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		7F80A6E82C78CCD000DDD37C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7F9A82002C70E22D00C3E326 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7FC6D1E92C5C1F730009B503 /* Onyx Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onyx Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +145,7 @@
 		7FC6D1E02C5C1F730009B503 = {
 			isa = PBXGroup;
 			children = (
+				7F6084922C7A500F00B89749 /* Readme.md */,
 				7FC6D1EB2C5C1F730009B503 /* Onyx Code */,
 				7FC6D1FC2C5C1F750009B503 /* Onyx CodeTests */,
 				7FC6D2062C5C1F750009B503 /* Onyx CodeUITests */,
